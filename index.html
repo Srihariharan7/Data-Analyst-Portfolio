@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Data Analyst Portfolio showcasing Excel, SQL, Power BI, Tableau and data storytelling projects.">
-  <title>Data Analyst Portfolio | Analytics & Insights</title>
+  <meta name="description" content="Aspiring Data Analyst portfolio showcasing hands-on projects in Excel, MySQL, Power BI and Tableau.">
+  <title>Aspiring Data Analyst | Portfolio</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
@@ -16,7 +16,10 @@
     nav{height:76px;display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid #ffffff12}
     .brand{font-family:Manrope;font-weight:800;letter-spacing:-.5px}.brand span{color:var(--mint)}
     .navlinks{display:flex;gap:26px;color:var(--muted);font-size:14px}.navlinks a:hover{color:white}
-    .hero{padding:94px 0 76px;display:grid;grid-template-columns:1.35fr .65fr;gap:55px;align-items:center}
+    .hero{padding:80px 0 70px;display:grid;grid-template-columns:1.2fr .8fr;gap:45px;align-items:center}
+    .profile-wrap{display:flex;justify-content:center;align-items:center;margin-bottom:22px}
+    .profile-photo{width:168px;height:168px;border-radius:50%;object-fit:cover;border:4px solid #6ee7c1;box-shadow:0 12px 35px #0006}
+    .photo-placeholder{width:168px;height:168px;border-radius:50%;display:grid;place-items:center;background:linear-gradient(135deg,#263b65,#1b6b64);border:4px solid #6ee7c1;color:#fff;font:800 46px Manrope;box-shadow:0 12px 35px #0006}
     .eyebrow{color:var(--mint);font-weight:700;letter-spacing:2px;text-transform:uppercase;font-size:12px}
     h1,h2,h3{font-family:Manrope;line-height:1.15;letter-spacing:-1px}
     h1{font-size:clamp(42px,6vw,68px);margin:18px 0}.gradient{background:linear-gradient(90deg,#fff,#9db6ff 65%,#7ce8c4);-webkit-background-clip:text;background-clip:text;color:transparent}
@@ -60,25 +63,32 @@
 
     <header class="hero">
       <div>
-        <div class="eyebrow">Data Analyst Portfolio</div>
-        <h1>Turning data into<br><span class="gradient">clear decisions.</span></h1>
-        <p class="intro">Hello! I’m an aspiring Data Analyst interested in transforming raw data into meaningful insights through data cleaning, analysis, visualization and storytelling.</p>
+        <div class="eyebrow">Aspiring Data Analyst · Open to Opportunities</div>
+        <h1>Hello, I’m an<br><span class="gradient">Aspiring Data Analyst.</span></h1>
+        <p class="intro">I have hands-on project experience in Microsoft Excel, MySQL, Power BI and Tableau. I enjoy exploring data, identifying patterns, building dashboards and communicating insights that can support better business decisions.</p>
+        <p class="intro">I’m eager to begin my career in data analytics, contribute to meaningful projects and continue developing my analytical skills.</p>
         <div class="actions">
           <a class="btn primary" href="#projects">Explore my projects&nbsp; ↗</a>
           <a class="btn" href="#contact">Connect with me</a>
         </div>
       </div>
-      <div class="hero-card">
+      <div>
+        <div class="profile-wrap">
+          <div class="photo-placeholder" id="photoFallback" aria-label="Profile photo placeholder">DA</div>
+          <img class="profile-photo" id="profilePhoto" src="assets/profile-photo.jpg" alt="Professional profile photograph" style="display:none" onload="this.style.display='block';document.getElementById('photoFallback').style.display='none'" onerror="this.style.display='none'">
+        </div>
+        <div class="hero-card">
         <div class="eyebrow">My analytics toolkit</div>
         <div class="metric"><div><strong>Excel</strong><br><span>Cleaning & reporting</span></div><span>01</span></div>
         <div class="metric"><div><strong>SQL</strong><br><span>Querying & analysis</span></div><span>02</span></div>
         <div class="metric"><div><strong>Power BI</strong><br><span>Interactive dashboards</span></div><span>03</span></div>
         <div class="metric"><div><strong>Tableau</strong><br><span>Visual analytics</span></div><span>04</span></div>
+        </div>
       </div>
     </header>
 
     <section id="skills">
-      <div class="section-head"><div><div class="eyebrow">What I work with</div><h2>Tools & skills</h2></div><p class="sub">A practical toolkit for exploring datasets, answering business questions and communicating findings.</p></div>
+      <div class="section-head"><div><div class="eyebrow">What I work with</div><h2>Tools & skills</h2></div><p class="sub">Tools I use to clean, analyse, visualise and communicate data.</p></div>
       <div class="skills">
         <div class="skill">Microsoft Excel<small>Data cleaning · PivotTables</small></div>
         <div class="skill">MySQL<small>Queries · Joins · Aggregations</small></div>
@@ -130,20 +140,20 @@
     </section>
 
     <section id="about">
-      <div class="section-head"><div><div class="eyebrow">A little about me</div><h2>Curious by nature. Analytical by approach.</h2></div></div>
+      <div class="section-head"><div><div class="eyebrow">About me</div><h2>Curious, motivated and data-driven.</h2></div></div>
       <div class="about-grid">
-        <div class="about-box"><h3>My approach</h3><p>I enjoy understanding a business question, preparing the data, exploring patterns and presenting the results in a clear, useful way.</p></div>
-        <div class="about-box"><h3>What I’m building</h3><p>This portfolio brings together my hands-on practice with Excel, SQL, Power BI, Tableau and presentation-based data storytelling. I’m continuously learning and improving my analytical skills.</p></div>
+        <div class="about-box"><h3>Who I am</h3><p>I am an aspiring Data Analyst building practical skills through hands-on projects. I enjoy working with datasets, asking questions, finding patterns and presenting information in a clear and useful way.</p></div>
+        <div class="about-box"><h3>My career objective</h3><p>My goal is to start my career as a Data Analyst, apply my skills in Excel, MySQL, Power BI and Tableau, learn from real business challenges and contribute to data-informed decisions.</p></div>
       </div>
     </section>
 
     <section id="contact">
       <div class="contact">
-        <div><div class="eyebrow">Let’s connect</div><h2>Have an opportunity or a question?</h2><p>Add your email and profile links below to make it easy for recruiters to reach you.</p></div>
-        <a class="btn primary" href="https://www.linkedin.com/" target="_blank" rel="noopener">Find me on LinkedIn ↗</a>
+        <div><div class="eyebrow">Let’s connect</div><h2>Have an opportunity or a question?</h2><p>I’m interested in entry-level Data Analyst opportunities and professional connections. You can reach me through LinkedIn.</p></div>
+        <a class="btn primary" href="https://www.linkedin.com/" target="_blank" rel="noopener">Connect on LinkedIn ↗</a>
       </div>
     </section>
-    <footer>© <span id="year"></span> Data Analyst Portfolio · Built to showcase analytics projects.</footer>
+    <footer>© <span id="year"></span> Aspiring Data Analyst Portfolio · Projects, learning and insights.</footer>
   </div>
   <script>document.getElementById("year").textContent=new Date().getFullYear();</script>
 </body>
