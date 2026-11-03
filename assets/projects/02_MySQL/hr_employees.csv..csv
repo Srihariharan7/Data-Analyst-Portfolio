@@ -1,0 +1,101 @@
+﻿Employee_ID,Department,Job_Role,Location,Hire_Date,Employment_Status,Exit_Date,Annual_Salary,Performance_Rating,Engagement_Score,Satisfaction_Score,Training_Hours
+EMP001,HR,HR Executive,Pune,26/04/2025,Active,,"450,000",2,1,5,5
+EMP002,Customer Support,Support Executive,Pune,03/05/2017,Active,,"370,000",5,5,1,35
+EMP003,Finance,Finance Manager,Mumbai,22/06/2019,Active,,"1,100,000",1,2,4,21
+EMP004,Marketing,SEO Specialist,Chennai,01/06/2019,Active,,"450,000",4,1,3,54
+EMP005,Operations,Operations Manager,Kochi,20/12/2019,Active,,"760,000",5,1,4,5
+EMP006,Marketing,Content Strategist,Bengaluru,23/06/2023,Active,,"400,000",2,3,1,54
+EMP007,Finance,Accountant,Delhi,06/04/2021,Active,,"930,000",2,3,3,13
+EMP008,Marketing,Marketing Executive,Pune,01/11/2023,Terminated,23/07/2024,"1,000,000",2,4,4,17
+EMP009,Finance,Finance Executive,Bengaluru,15/06/2026,Active,,"640,000",3,4,3,4
+EMP010,Finance,Finance Executive,Kochi,21/05/2019,Terminated,24/03/2025,"850,000",2,3,2,15
+EMP011,Marketing,Marketing Manager,Pune,19/07/2023,Active,,"780,000",2,5,4,5
+EMP012,Engineering,Software Engineer,Coimbatore,19/09/2018,Terminated,03/10/2020,"1,420,000",5,1,4,24
+EMP013,IT,IT Manager,Mumbai,27/10/2019,Resigned,12/03/2020,"490,000",3,1,3,27
+EMP014,Sales,Business Development Executive,Hyderabad,14/01/2017,Terminated,09/05/2025,"650,000",5,1,3,53
+EMP015,Finance,Financial Analyst,Bengaluru,12/03/2021,Active,,"1,040,000",5,3,4,1
+EMP016,HR,HR Generalist,Bengaluru,30/04/2026,Active,,"450,000",2,5,1,5
+EMP017,IT,IT Support Specialist,Kochi,13/07/2025,Resigned,14/12/2025,"510,000",5,2,3,33
+EMP018,Customer Support,Support Executive,Coimbatore,18/01/2023,Terminated,02/06/2024,"430,000",3,4,5,28
+EMP019,HR,Recruiter,Bengaluru,10/07/2019,Active,,"510,000",5,5,2,37
+EMP020,Finance,Accountant,Pune,18/10/2017,Terminated,12/02/2025,"420,000",1,1,3,4
+EMP021,Finance,Finance Executive,Hyderabad,03/07/2024,Active,,"620,000",5,5,4,15
+EMP022,IT,System Administrator,Coimbatore,19/02/2019,Active,,"470,000",3,4,4,29
+EMP023,Engineering,Software Engineer,Delhi,06/09/2017,Active,,"1,480,000",1,2,2,12
+EMP024,IT,IT Support Specialist,Kochi,25/09/2021,Active,,"700,000",2,1,4,51
+EMP025,HR,HR Executive,Pune,25/04/2024,Resigned,08/08/2024,"350,000",2,4,4,30
+EMP026,Finance,Finance Manager,Bengaluru,29/08/2017,Active,,"830,000",4,3,4,18
+EMP027,Customer Support,Support Team Lead,Hyderabad,12/03/2025,Resigned,14/05/2026,"550,000",2,3,2,3
+EMP028,Engineering,QA Engineer,Kochi,23/08/2017,Active,,"1,290,000",5,5,2,3
+EMP029,HR,Recruiter,Pune,08/10/2017,Resigned,11/10/2018,"730,000",4,1,5,15
+EMP030,Engineering,Team Lead,Delhi,02/12/2017,Active,,"1,390,000",3,2,3,15
+EMP031,Marketing,Marketing Manager,Kochi,21/06/2018,Terminated,14/12/2025,"700,000",3,1,1,29
+EMP032,HR,HR Executive,Mumbai,12/01/2023,Active,,"620,000",2,3,1,56
+EMP033,Finance,Finance Executive,Mumbai,13/03/2020,Active,,"910,000",5,5,1,42
+EMP034,Marketing,Marketing Executive,Chennai,05/07/2018,Active,,"460,000",5,2,3,18
+EMP035,Finance,Finance Executive,Kochi,14/04/2019,Terminated,22/08/2026,"680,000",3,1,1,40
+EMP036,Customer Support,Customer Success Associate,Hyderabad,30/06/2017,Active,,"450,000",3,2,4,35
+EMP037,Customer Support,Support Team Lead,Hyderabad,09/02/2017,Active,,"280,000",5,1,3,37
+EMP038,Sales,Business Development Executive,Delhi,07/06/2018,Active,,"710,000",1,3,2,43
+EMP039,Finance,Accountant,Hyderabad,19/12/2020,Resigned,08/10/2025,"1,140,000",2,2,2,56
+EMP040,Customer Support,Support Executive,Pune,05/01/2019,Terminated,25/12/2022,"500,000",3,2,1,24
+EMP041,Engineering,DevOps Engineer,Delhi,01/07/2019,Active,,"1,130,000",3,2,2,1
+EMP042,Finance,Finance Manager,Mumbai,06/09/2020,Active,,"430,000",3,5,4,43
+EMP043,Operations,Operations Executive,Mumbai,18/04/2018,Active,,"410,000",1,1,5,27
+EMP044,Operations,Operations Manager,Chennai,27/10/2025,Active,,"570,000",4,5,2,16
+EMP045,Engineering,DevOps Engineer,Pune,07/01/2017,Resigned,23/04/2026,"1,230,000",3,4,1,60
+EMP046,Operations,Operations Manager,Mumbai,09/07/2020,Terminated,01/03/2022,"760,000",5,3,4,20
+EMP047,Customer Support,Support Team Lead,Coimbatore,26/04/2020,Resigned,28/12/2021,"360,000",4,2,5,36
+EMP048,Marketing,Marketing Manager,Mumbai,23/02/2023,Active,,"700,000",2,4,5,38
+EMP049,Operations,Operations Analyst,Pune,15/12/2021,Active,,"730,000",5,4,2,42
+EMP050,HR,HR Generalist,Delhi,13/10/2022,Terminated,30/07/2026,"690,000",1,2,3,14
+EMP051,Finance,Financial Analyst,Kochi,11/04/2017,Active,,"660,000",5,1,4,26
+EMP052,Finance,Finance Manager,Hyderabad,18/07/2022,Active,,"660,000",1,1,4,14
+EMP053,Sales,Business Development Executive,Kochi,25/07/2017,Resigned,08/08/2020,"470,000",2,4,5,35
+EMP054,Operations,Operations Analyst,Coimbatore,15/11/2023,Terminated,14/08/2026,"620,000",5,4,2,47
+EMP055,IT,System Administrator,Mumbai,28/11/2019,Active,,"1,160,000",5,4,2,17
+EMP056,IT,IT Support Specialist,Mumbai,01/01/2025,Active,,"650,000",3,3,5,5
+EMP057,Sales,Account Manager,Pune,06/08/2019,Active,,"510,000",1,4,4,21
+EMP058,IT,System Administrator,Coimbatore,13/09/2017,Active,,"880,000",5,1,5,24
+EMP059,IT,IT Support Specialist,Coimbatore,11/12/2020,Active,,"840,000",5,5,5,57
+EMP060,Finance,Finance Manager,Kochi,18/06/2019,Active,,"900,000",1,4,3,42
+EMP061,Customer Support,Support Team Lead,Bengaluru,08/11/2018,Active,,"320,000",4,5,5,42
+EMP062,Engineering,Software Engineer,Kochi,17/03/2024,Active,,"720,000",2,1,3,24
+EMP063,Operations,Operations Executive,Coimbatore,06/02/2022,Active,,"510,000",3,4,3,53
+EMP064,HR,HR Manager,Delhi,21/03/2017,Terminated,07/07/2023,"330,000",2,1,1,48
+EMP065,Engineering,Data Analyst,Hyderabad,28/03/2019,Active,,"1,340,000",2,2,4,42
+EMP066,HR,Recruiter,Delhi,20/03/2022,Terminated,24/11/2023,"790,000",2,5,5,47
+EMP067,HR,Recruiter,Bengaluru,28/06/2020,Active,,"670,000",3,5,4,25
+EMP068,Finance,Accountant,Mumbai,23/08/2023,Terminated,01/04/2025,"480,000",5,1,5,50
+EMP069,Engineering,QA Engineer,Delhi,23/12/2022,Active,,"1,390,000",1,5,3,0
+EMP070,Customer Support,Customer Success Associate,Kochi,09/03/2018,Active,,"470,000",2,4,2,46
+EMP071,Marketing,Marketing Manager,Delhi,20/03/2022,Active,,"660,000",2,1,3,56
+EMP072,IT,IT Support Specialist,Coimbatore,01/06/2025,Active,,"1,070,000",3,1,4,54
+EMP073,Operations,Operations Executive,Mumbai,21/06/2022,Active,,"520,000",3,3,5,44
+EMP074,Marketing,Marketing Executive,Pune,18/10/2022,Active,,"420,000",4,4,5,48
+EMP075,Finance,Finance Manager,Bengaluru,30/03/2024,Terminated,12/11/2025,"920,000",1,3,2,25
+EMP076,Finance,Finance Executive,Delhi,12/06/2024,Resigned,22/09/2025,"950,000",4,5,3,22
+EMP077,IT,System Administrator,Chennai,09/06/2020,Active,,"640,000",2,3,1,47
+EMP078,Sales,Account Manager,Mumbai,06/06/2019,Terminated,07/02/2025,"670,000",1,2,3,14
+EMP079,Operations,Operations Executive,Hyderabad,23/05/2020,Active,,"750,000",3,1,1,35
+EMP080,Marketing,SEO Specialist,Bengaluru,26/02/2024,Active,,"450,000",5,3,4,30
+EMP081,IT,System Administrator,Kochi,26/01/2019,Active,,"670,000",1,1,4,31
+EMP082,HR,HR Executive,Mumbai,14/09/2018,Active,,"810,000",1,2,1,35
+EMP083,Customer Support,Support Team Lead,Coimbatore,08/09/2023,Resigned,13/03/2025,"570,000",4,4,3,55
+EMP084,Customer Support,Customer Success Associate,Chennai,19/05/2023,Resigned,18/12/2023,"630,000",2,2,3,42
+EMP085,HR,Recruiter,Chennai,10/09/2019,Active,,"650,000",2,1,4,28
+EMP086,IT,System Administrator,Mumbai,14/05/2017,Active,,"710,000",4,1,2,59
+EMP087,Marketing,SEO Specialist,Hyderabad,08/10/2021,Active,,"600,000",3,2,1,3
+EMP088,Sales,Sales Manager,Chennai,04/09/2023,Terminated,16/07/2025,"880,000",4,3,4,60
+EMP089,Marketing,Marketing Manager,Coimbatore,29/11/2021,Active,,"370,000",3,5,3,1
+EMP090,HR,Recruiter,Bengaluru,24/07/2024,Resigned,15/06/2026,"900,000",3,5,1,48
+EMP091,Sales,Business Development Executive,Hyderabad,27/10/2022,Terminated,18/07/2025,"670,000",5,4,4,5
+EMP092,IT,System Administrator,Chennai,31/07/2021,Active,,"760,000",2,3,4,44
+EMP093,IT,System Administrator,Bengaluru,06/06/2024,Active,,"1,050,000",4,1,3,16
+EMP094,Operations,Operations Executive,Bengaluru,31/08/2025,Active,,"850,000",5,4,4,3
+EMP095,Finance,Finance Executive,Kochi,26/12/2023,Active,,"1,150,000",1,2,3,35
+EMP096,Sales,Sales Manager,Bengaluru,30/11/2021,Terminated,16/11/2024,"470,000",5,2,2,19
+EMP097,Engineering,Team Lead,Chennai,30/07/2021,Active,,"830,000",4,1,2,31
+EMP098,Marketing,Content Strategist,Pune,29/08/2021,Active,,"920,000",4,5,2,24
+EMP099,Finance,Financial Analyst,Delhi,13/10/2017,Active,,"880,000",5,3,1,18
+EMP100,Marketing,Marketing Manager,Kochi,01/09/2018,Active,,"1,000,000",3,3,5,48
