@@ -51,14 +51,21 @@
     .contact p{color:var(--muted);margin-bottom:0}.contact h2{margin-top:0}
     footer{padding:30px 0;color:#8290aa;font-size:12px;border-top:1px solid #ffffff12;margin-top:65px}
     @media(max-width:760px){.hero{grid-template-columns:1fr;padding:65px 0 45px}.hero-card{max-width:450px}.navlinks{gap:12px;font-size:12px}.skills{grid-template-columns:repeat(2,1fr)}.projects,.about-grid{grid-template-columns:1fr}.section-head{display:block}.contact{display:block}.contact .btn{margin-top:20px}}
-    @media(max-width:430px){.navlinks a:nth-child(2){display:none}.brand{font-size:14px}h2{font-size:29px}}
+    @media(max-width:430px){.navlinks a{font-size:11px}.navlinks{gap:8px;flex-wrap:wrap}.brand{font-size:14px}h2{font-size:29px}}
   </style>
 </head>
 <body>
   <div class="wrap">
     <nav>
-      <a class="brand" href="#">DATA<span>INSIGHTS</span>.</a>
-      <div class="navlinks"><a href="#skills">Skills</a><a href="#projects">Projects</a><a href="#about">About</a><a href="#contact">Contact</a></div>
+      <div class="brand">Data<span>Portfolio</span></div>
+
+      <div class="navlinks">
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#dataset-overview">Dataset</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+      </div>
     </nav>
 
     <header class="hero">
@@ -123,7 +130,7 @@
   <a href="#dataset-overview">View Dataset Details ↗</a>
 </p>
           <div class="chips"><span>Excel</span><span>Data analysis</span><span>Dashboard</span></div>
-          <div class="project-links"><a href="assets/projects/01_Excel_HR_Analytics/HR_Analytics_Dashboard.xlsx" download>Download dashboard ↗</a><a href="assets/projects/01_Excel_HR_Analytics/HR_Employee_Raw_Dataset_100.xlsx" download>Source data ↗</a></div>
+          <div class="project-links">   <a href="assets/projects/01_Excel_HR_Analytics/hr_analytics_dashboard.xlsx" download>Download Excel Dashboard ↗</a>   <a href="assets/projects/01_Excel_HR_Analytics/hr_employee_raw_datasets_100.xlsx" download>Download Source Dataset ↗</a> </div>
         </article>
         <article class="project">
           <div class="project-top"><span class="tag">Database analysis</span><span class="symbol">SQL</span></div>
@@ -137,21 +144,21 @@
           <h3>HR Dashboard in Power BI</h3>
           <p>Created an HR analytics dashboard project in Power BI. Download the PBIX file to explore the report and its interactive elements in Power BI Desktop.</p>
           <div class="chips"><span>Power BI</span><span>Interactive report</span><span>HR data</span></div>
-          <div class="project-links"><a href="assets/projects/03_PowerBI/HR_Dashboard.pbix" download>Download PBIX ↗</a><a href="assets/projects/03_PowerBI/HR_Employee_Raw_Dataset_100.xlsx" download>Source data ↗</a></div>
+          <div class="project-links">   <a href="assets/projects/03_PowerBI/hr_dashboard.pbix" download>Download Power BI Dashboard ↗</a>   <a href="assets/projects/03_PowerBI/hr_employee_raw_datasets_100.xlsx" download>Download Source Dataset ↗</a> </div>
         </article>
         <article class="project">
           <div class="project-top"><span class="tag">Visual analytics</span><span class="symbol">T</span></div>
           <h3>HR Dashboard in Tableau</h3>
           <p>Built a Tableau packaged workbook for exploring the HR dataset. Download the TWBX file and open it with Tableau Desktop or Tableau Public.</p>
           <div class="chips"><span>Tableau</span><span>Data visualization</span><span>Dashboard</span></div>
-          <div class="project-links"><a href="assets/projects/04_Tableau/HR_Dashboard.twbx" download>Download TWBX ↗</a><a href="assets/projects/04_Tableau/HR_Employee_Raw_Dataset_100.xlsx" download>Source data ↗</a></div>
+          <div class="project-links">   <a href="assets/projects/04_Tableau/hr_dashboard.twbx" download>Download Tableau Dashboard ↗</a>   <a href="assets/projects/04_Tableau/hr_employee_raw_datasets_100.xlsx" download>Download Source Dataset ↗</a> </div>
         </article>
         <article class="project">
           <div class="project-top"><span class="tag">Data storytelling</span><span class="symbol">PPT</span></div>
           <h3>HR Employee Analytics Presentation</h3>
           <p>A PowerPoint presentation summarising the HR employee analytics work in a presentation-ready format.</p>
           <div class="chips"><span>PowerPoint</span><span>Communication</span><span>Insights</span></div>
-          <div class="project-links"><a href="assets/projects/05_PowerPoint/HR_Employee_Analytics.pptx" download>Download presentation ↗</a></div>
+          <div class="project-links">   <a href="assets/projects/05_PowerPoint/hr_employee_analytics.pptx" download>Download PowerPoint Presentation ↗</a>   <a href="assets/projects/05_PowerPoint/hr_employee_raw_datasets_100.xlsx" download>Download Source Dataset ↗</a> </div>
         </article>
       </div>
     </section>
@@ -199,6 +206,7 @@
     patterns and communicate HR insights through dashboards and reports.
   </p>
 </section>
+    
     <section id="about">
       <div class="section-head"><div><div class="eyebrow">About me</div><h2>Curious, motivated and data-driven.</h2></div></div>
       <div class="about-grid">
